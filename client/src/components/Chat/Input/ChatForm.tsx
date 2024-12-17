@@ -1,3 +1,4 @@
+import { useWatch } from 'react-hook-form';
 import { memo, useRef, useMemo, useEffect } from 'react';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import {
@@ -29,6 +30,7 @@ import PromptsCommand from './PromptsCommand';
 import AudioRecorder from './AudioRecorder';
 import { mainTextareaId } from '~/common';
 import StreamAudio from './StreamAudio';
+import CallButton from './CallButton';
 import StopButton from './StopButton';
 import SendButton from './SendButton';
 import Mention from './Mention';
