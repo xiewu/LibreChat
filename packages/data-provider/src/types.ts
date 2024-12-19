@@ -11,6 +11,7 @@ import type {
   TBanner,
 } from './schemas';
 import type { TSpecsConfig } from './models';
+import { string } from 'zod';
 export type TOpenAIMessage = OpenAI.Chat.ChatCompletionMessageParam;
 
 export * from './schemas';
@@ -530,3 +531,12 @@ export type TAcceptTermsResponse = {
 };
 
 export type TBannerResponse = TBanner | null;
+
+export type TRealtimeEphemeralTokenRequest = {
+  voice: string;
+};
+
+export type TRealtimeEphemeralTokenResponse = {
+  token: string;
+  url: string;
+};

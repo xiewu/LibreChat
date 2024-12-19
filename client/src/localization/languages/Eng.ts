@@ -778,6 +778,7 @@ export default {
   com_nav_close_sidebar: 'Close sidebar',
   com_nav_open_sidebar: 'Open sidebar',
   com_nav_send_message: 'Send message',
+  com_nav_call: 'Call',
   com_nav_stop_generating: 'Stop generating',
   com_nav_log_out: 'Log out',
   com_nav_user: 'USER',
