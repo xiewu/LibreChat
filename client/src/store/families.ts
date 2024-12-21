@@ -366,6 +366,11 @@ const updateConversationSelector = selectorFamily({
       },
 });
 
+const callDialogOpen = atomFamily<boolean, string | number | null>({
+  key: 'callDialogOpen',
+  default: false,
+});
+
 export default {
   conversationByIndex,
   filesByIndex,
@@ -396,4 +401,5 @@ export default {
   useClearLatestMessages,
   showPromptsPopoverFamily,
   updateConversationSelector,
+  callDialogOpen,
 };

@@ -540,3 +540,7 @@ export type TRealtimeEphemeralTokenResponse = {
   token: string;
   url: string;
 };
+
+export type TWebsocketUrlResponse = {
+  url: string;
+};
